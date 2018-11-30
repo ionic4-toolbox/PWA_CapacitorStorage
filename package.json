@@ -1,0 +1,26 @@
+{
+  "name": "pwa-capacitor-data-storage-sqlite-test",
+  "private": true,
+  "version": "0.0.1",
+  "description": "pwa-capacitor-data-storage-sqlite-test",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watch"
+  },
+  "dependencies": {
+    "@capacitor/cli": "^1.0.0-beta.11",
+    "@capacitor/core": "^1.0.0-beta.11",
+    "@ionic/core": "4.0.0-beta.16",
+    "capacitor-data-storage-sqlite": "0.0.8-1"
+  },
+  "devDependencies": {
+    "@stencil/core": "0.15.2",
+    "workbox-build": "3.4.1"
+  }
+}
