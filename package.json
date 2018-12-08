@@ -1,7 +1,7 @@
 {
   "name": "pwa-capacitor-data-storage-sqlite-test",
   "private": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "pwa-capacitor-data-storage-sqlite-test",
   "files": [
     "dist/"
@@ -22,7 +22,7 @@
     "@capacitor/cli": "^1.0.0-beta.11",
     "@capacitor/core": "^1.0.0-beta.11",
     "@ionic/core": "4.0.0-beta.16",
-    "capacitor-data-storage-sqlite": "0.0.8-1"
+    "capacitor-data-storage-sqlite": "0.0.9"
   },
   "devDependencies": {
     "@stencil/core": "0.15.2",
@@ -38,5 +38,4 @@
     "url": "https://github.com/jepiqueau/ionicpwacapacitorstorage/issues"
   },
   "homepage": "https://github.com/jepiqueau/ionicpwacapacitorstorage#readme"
-
 }
