@@ -19,13 +19,18 @@
     "test.watch": "stencil test --spec --e2e --watch"
   },
   "dependencies": {
-    "@capacitor/cli": "^1.0.0-beta.11",
-    "@capacitor/core": "^1.0.0-beta.11",
-    "@ionic/core": "4.0.0-beta.16",
-    "capacitor-data-storage-sqlite": "0.0.9"
+    "@capacitor/cli": "^1.0.0-beta.13",
+    "@capacitor/core": "^1.0.0-beta.13",
+    "@ionic/core": "4.0.0-rc.0",
+    "capacitor-data-storage-sqlite": "0.0.10"
   },
   "devDependencies": {
-    "@stencil/core": "0.15.2",
+    "@stencil/core": "^0.16.1",
+    "@types/jest": "23.3.10",
+    "@types/puppeteer": "1.11.1",
+    "jest": "23.6.0",
+    "jest-cli": "23.6.0",
+    "puppeteer": "1.8.0",
     "workbox-build": "3.4.1"
   },
   "repository": {

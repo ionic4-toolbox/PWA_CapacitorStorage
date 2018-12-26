@@ -9,11 +9,11 @@ describe('app-home', () => {
     expect(element).toHaveClass('hydrated');
   });
 
-  it('contains a "Profile Page" button', async () => {
+  it('contains a "Test Storage Plugin" button', async () => {
     const page = await newE2EPage();
     await page.setContent('<app-home></app-home>');
 
     const element = await page.find('app-home ion-content ion-button');
-    expect(element.textContent).toEqual('Profile page');
+    expect(element.textContent).toEqual('Test Storage Plugin');
   });
 });
